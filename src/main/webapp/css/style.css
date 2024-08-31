@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/* importação das fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*config geral*/
+*{
+	margin:0px;
+	padding:0px;
+	font-family: "Work Sans", sans-serif;
+}
+
+/*variaveis de cores*/
+:root{
+	--cor0: #3B3B3A;
+	--cor1: #D6D0C7;
+	--cor2: #9B9C98;
+	--cor3: #94949C;
+	
+}
+
+header{
+	display:block;
+	height: 100px;
+}
+
+img#logo{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+.sorteio{
+    display: none;
+}
+
+.localizacao{
+	background-color: var(--cor1);
+	display:flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+}
+
+.localizacao a{
+    color: black;
+    text-decoration: none;
+}
+
+.localizacao a:hover{
+    color: black;
+}
+
+.loc{
+	padding: 15px
+}
+
+.quemSomos{
+	text-align:center;
+	background-color: var(--cor3);
+	padding: 10px;
+}
+
+footer{
+	background-color: var(--cor0);
+	text-align: center;
+	padding: 10px;
+	color: white;
+}
+	
+
+
+
+
+
+
