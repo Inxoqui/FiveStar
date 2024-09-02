@@ -32,7 +32,7 @@
 }
 
 img {
-	display:flex;
+	display: flex;
 	height: 80px;
 	width: 80px;
 	border-radius: 50%;
@@ -40,10 +40,9 @@ img {
 	margin: auto;
 }
 
-body{
+body {
 	background-color: #3B3B3A;
 }
-
 </style>
 
 </head>
@@ -62,8 +61,8 @@ body{
 							<span class="input-group-text"> <i class="fa fa-user"></i>
 							</span>
 						</div>
-						<input name="" class="form-control" placeholder="Login"
-							type="email">
+						<input name="login" class="form-control" placeholder="Login"
+							type="text">
 					</div>
 					<!-- input-group.// -->
 				</div>
@@ -74,7 +73,8 @@ body{
 							<span class="input-group-text"> <i class="fa fa-lock"></i>
 							</span>
 						</div>
-						<input class="form-control" placeholder="Senha" type="password">
+						<input name="senha" class="form-control" placeholder="Senha"
+							type="password">
 					</div>
 					<!-- input-group.// -->
 				</div>
