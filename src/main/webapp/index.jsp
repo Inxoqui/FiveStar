@@ -43,13 +43,16 @@
 					</div>
 					<div class="offcanvas-body">
 						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-							<li class="nav-item"><a class="nav-link active" href="#">Serviços</a></li>
+							<li class="nav-item"><a class="nav-link active" href="main"><i class="fa-regular fa-user"></i> Login</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
 							<li class="nav-item dropdown"><a
 								class="nav-link dropdown-toggle" href="#" role="button"
 								data-bs-toggle="dropdown" aria-expanded="false"> Contato</a>
 								<ul class="dropdown-menu dropdown-menu-dark">
-									<li><a class="dropdown-item" href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-									<li><a class="dropdown-item" href="#"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a></li>
+									<li><a class="dropdown-item" href="#"><i
+											class="fa-brands fa-instagram"></i> Instagram</a></li>
+									<li><a class="dropdown-item" href="#"><i
+											class="fa-brands fa-whatsapp"></i> Whatsapp</a></li>
 									<li>
 								</ul>
 					</div>
@@ -138,7 +141,7 @@
 
 		<section class="localizacao">
 			<div class="loc">
-				<h3>Nossa localização</h3>
+				<h2>Nossa localização</h2>
 
 				<p>
 					Rua 8, 6, Lotes 4, 6, 8 loja, Águas Claras, Brasília-DF - 71908-360
@@ -164,7 +167,7 @@
 
 		<%-- quem comos --%>
 		<section class="quemSomos">
-			<h1>Barbearia Five Star</h1>
+			<h2>Barbearia Five Star</h2>
 
 			<p>
 				<strong>Formas de pagamento: <br></strong> Cartões de
@@ -183,7 +186,7 @@
 
 	<%-- rodapé --%>
 	<footer>
-		
+
 		<p>
 			&#9400;Todos os direitos reservardos à <strong>Barbearia
 				Five Star</strong>

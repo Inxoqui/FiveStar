@@ -11,15 +11,19 @@
 	font-family: "Work Sans", sans-serif;
 }
 
+h2{
+	font-size:2.5em;
+}
+
 /*variaveis de cores*/
 :root{
 	--cor0: #3B3B3A;
 	--cor1: #D6D0C7;
 	--cor2: #9B9C98;
 	--cor3: #94949C;
-	
 }
 
+/*config da pag*/
 header{
 	display:block;
 	height: 100px;
@@ -30,6 +34,11 @@ img#logo{
 	height: 80px;
 	border-radius: 50%;
 	border: 1px solid white;
+}
+
+.login{
+	display:flex;
+	position: right;
 }
 
 .sorteio{
@@ -53,7 +62,8 @@ img#logo{
 }
 
 .localizacao a:hover{
-    color: black;
+    color: white;
+    text-decoration: underline;
 }
 
 .loc{
@@ -71,6 +81,13 @@ footer{
 	text-align: center;
 	padding: 10px;
 	color: white;
+}
+
+@media only screen and (min-width:600px){
+	.localizacao{
+		 text-align: left;
+	}
+	
 }
 	
 
