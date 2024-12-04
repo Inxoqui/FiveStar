@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<display-name>FiveStar</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	//INICIO SERVICO
+	<servlet>
+		<servlet-name>InserirServico</servlet-name> //NOME
+		<servlet-class>controller.InserirServico</servlet-class> //LOCAL DO ARQUIVO
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>InserirServico</servlet-name> //NOME
+		<url-pattern>/inserir_servico.do</url-pattern> //URL DO DESCRITOR
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CarregarServicos</servlet-name> //NOME
+		<servlet-class>controller.CarregarServicos</servlet-class> //LOCAL DO ARQUIVO
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CarregarServicos</servlet-name> //NOME
+		<url-pattern>/carregar_servico.do</url-pattern> //URL DO DESCRITOR
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AlterarServico</servlet-name> //NOME
+		<servlet-class>controller.AlterarServico</servlet-class> //LOCAL DO ARQUIVO
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>AlterarServico</servlet-name> //NOME
+		<url-pattern>/alterar_servico.do</url-pattern> //URL DO DESCRITOR
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ExcluirServico</servlet-name> //NOME
+		<servlet-class>controller.ExcluirServico</servlet-class> //LOCAL DO ARQUIVO
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ExcluirServico</servlet-name> //NOME
+		<url-pattern>/excluir_servico.do</url-pattern> //URL DO DESCRITOR
+	</servlet-mapping>
+	//FIM SERVICO
+	
+	//INICIO PERFIL
+	<servlet>
+		<servlet-name>InserirPerfil</servlet-name> //NOME
+		<servlet-class>controller.InserirPerfil</servlet-class> //LOCAL DO ARQUIVO
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>InserirPerfil</servlet-name> //NOME
+		<url-pattern>/inserir_perfil.do</url-pattern> //URL DO DESCRITOR
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CarregarPerfis</servlet-name> //NOME
+		<servlet-class>controller.CarregarPerfis</servlet-class> //LOCAL DO ARQUIVO
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CarregarPerfis</servlet-name> //NOME
+		<url-pattern>/carregar_perfil.do</url-pattern> //URL DO DESCRITOR
+	</servlet-mapping>	
+
+	<servlet>
+		<servlet-name>AlterarPerfil</servlet-name> //NOME
+		<servlet-class>controller.AlterarPerfil</servlet-class> //LOCAL DO ARQUIVO
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>AlterarPerfil</servlet-name> //NOME
+		<url-pattern>/alterar_perfil.do</url-pattern> //URL DO DESCRITOR
+	</servlet-mapping>	
+
+	<servlet>
+		<servlet-name>ExcluirPerfil</servlet-name> //NOME
+		<servlet-class>controller.ExcluirPerfil</servlet-class> //LOCAL DO ARQUIVO
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ExcluirPerfil</servlet-name> //NOME
+		<url-pattern>/excluir_perfil.do</url-pattern> //URL DO DESCRITOR
+	</servlet-mapping>	
+	//FIM PERFIL
+
+	
+	
+	
+	
+</web-app>
